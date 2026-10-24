@@ -2,68 +2,125 @@ using UnityEngine;
 
 public class TileSelector : MonoBehaviour
 {
+    [Header("Materiály pro kurzor a výbìr")]
     public Material hoverMaterial;   // Barva pøi najetí myší
-    public Material clickedMaterial; // Barva po kliknutí
+    public Material clickedMaterial; // Barva vybrané dlaždice
 
-    private Transform lastHoveredTile;
-    private Material originalMaterial;
+    private Transform hoverTile;
+    private Material hoverOriginalMat;
+
+    private Transform selectedTile;
+    private Material selectedOriginalMat;
 
     void Update()
     {
-        // Vystøelení paprsku z kamery na pozici kurzoru myši
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
+        bool hitSomething = Physics.Raycast(ray, out hit);
 
-        if (Physics.Raycast(ray, out hit))
+        // 1. Odkliknutí pravým tlaèítkem myši nebo klávesou ESC
+        if (Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Escape))
+        {
+            DeselectCurrentTile();
+        }
+
+        if (hitSomething)
         {
             Transform currentTile = hit.transform;
 
-            // Pokud míøíme na novou dlaždici
-            if (lastHoveredTile != currentTile)
+            // --- HOVER EFEKT (najetí myší) ---
+            if (hoverTile != currentTile)
             {
-                ResetLastTile();
+                ResetHover();
 
-                // Uložíme si pùvodní materiál dlaždice
-                lastHoveredTile = currentTile;
-                MeshRenderer renderer = currentTile.GetComponent<MeshRenderer>();
-
-                if (renderer != null)
+                // Zvýrazòujeme pouze dlaždici, která není zrovna vybraná
+                if (currentTile != selectedTile)
                 {
-                    originalMaterial = renderer.material;
-                    if (hoverMaterial != null)
+                    hoverTile = currentTile;
+                    MeshRenderer renderer = currentTile.GetComponent<MeshRenderer>();
+                    if (renderer != null)
                     {
-                        renderer.material = hoverMaterial; // Zmìna barvy pøi najetí
+                        hoverOriginalMat = renderer.material;
+                        if (hoverMaterial != null)
+                        {
+                            renderer.material = hoverMaterial;
+                        }
                     }
                 }
             }
 
-            // Kliknutí levým tlaèítkem myši
+            // --- KLIKNUTÍ LEVÝM TLAÈÍTKEM (Výbìr / Odkliknutí) ---
             if (Input.GetMouseButtonDown(0))
             {
                 MeshRenderer renderer = currentTile.GetComponent<MeshRenderer>();
-                if (renderer != null && clickedMaterial != null)
+                if (renderer != null)
                 {
-                    originalMaterial = clickedMaterial; // Trvalá zmìna barvy
-                    renderer.material = clickedMaterial;
+                    // A) Kliknutí na UŽ VYBRANOU dlaždici -> ODKLIKNE JI
+                    if (selectedTile == currentTile)
+                    {
+                        DeselectCurrentTile();
+                    }
+                    // B) Kliknutí na NOVOU dlaždici -> Odklikne starou a vybere novou
+                    else
+                    {
+                        DeselectCurrentTile();
+
+                        selectedTile = currentTile;
+                        selectedOriginalMat = (hoverTile == currentTile && hoverOriginalMat != null)
+                            ? hoverOriginalMat
+                            : renderer.material;
+
+                        if (clickedMaterial != null)
+                        {
+                            renderer.material = clickedMaterial;
+                        }
+
+                        hoverTile = null;
+                    }
                 }
             }
         }
         else
         {
-            ResetLastTile();
+            ResetHover();
+
+            // 2. Kliknutí do prázdného prostoru mimo mapu odklikne výbìr
+            if (Input.GetMouseButtonDown(0))
+            {
+                DeselectCurrentTile();
+            }
         }
     }
 
-    void ResetLastTile()
+    void ResetHover()
     {
-        if (lastHoveredTile != null)
+        if (hoverTile != null)
         {
-            MeshRenderer renderer = lastHoveredTile.GetComponent<MeshRenderer>();
-            if (renderer != null && originalMaterial != null)
+            if (hoverTile != selectedTile)
             {
-                renderer.material = originalMaterial;
+                MeshRenderer renderer = hoverTile.GetComponent<MeshRenderer>();
+                if (renderer != null && hoverOriginalMat != null)
+                {
+                    renderer.material = hoverOriginalMat;
+                }
             }
-            lastHoveredTile = null;
+            hoverTile = null;
+            hoverOriginalMat = null;
+        }
+    }
+
+    // Metoda pro navrácení vybrané dlaždice do pùvodního stavu
+    public void DeselectCurrentTile()
+    {
+        if (selectedTile != null)
+        {
+            MeshRenderer renderer = selectedTile.GetComponent<MeshRenderer>();
+            if (renderer != null && selectedOriginalMat != null)
+            {
+                renderer.material = selectedOriginalMat;
+            }
+            selectedTile = null;
+            selectedOriginalMat = null;
         }
     }
 }

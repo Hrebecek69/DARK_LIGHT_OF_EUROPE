@@ -270,7 +270,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraController
   moveSpeed: 20
-  zoomSpeed: 10
+  smoothness: 5
+  dragSpeed: 25
+  minX: -30
+  maxX: 30
+  minZ: -20
+  maxZ: 20
+  zoomSpeed: 5
   minHeight: 5
   maxHeight: 30
 --- !u!1 &1719052565
