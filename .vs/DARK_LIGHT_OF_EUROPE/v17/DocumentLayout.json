@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\RegionInteractionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RegionInteractionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\SpriteAlphaMeshColliderEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SpriteAlphaMeshColliderEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\SpriteAlphaMeshCollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SpriteAlphaMeshCollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\RegionData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RegionData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\CountryData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CountryData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\CameraController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CameraController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\TileSelector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TileSelector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\RegionSelector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RegionSelector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\CameraController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CameraController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +42,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegionInteractionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\RegionInteractionManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RegionInteractionManager.cs",
+              "ToolTip": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\RegionInteractionManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RegionInteractionManager.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAqwIwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T22:13:02.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SpriteAlphaMeshColliderEditor.cs",
+              "DocumentMoniker": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\SpriteAlphaMeshColliderEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpriteAlphaMeshColliderEditor.cs",
+              "ToolTip": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\SpriteAlphaMeshColliderEditor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpriteAlphaMeshColliderEditor.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAG0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T21:53:22.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpriteAlphaMeshCollider.cs",
+              "DocumentMoniker": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\SpriteAlphaMeshCollider.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpriteAlphaMeshCollider.cs",
+              "ToolTip": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\SpriteAlphaMeshCollider.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpriteAlphaMeshCollider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T21:52:30.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegionData.cs",
+              "DocumentMoniker": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\RegionData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RegionData.cs",
+              "ToolTip": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\RegionData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RegionData.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T20:06:08.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CountryData.cs",
+              "DocumentMoniker": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\CountryData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CountryData.cs",
+              "ToolTip": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\CountryData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CountryData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T19:59:04.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "RegionSelector.cs",
               "DocumentMoniker": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\RegionSelector.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RegionSelector.cs",
               "ToolTip": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\RegionSelector.cs",
               "RelativeToolTip": "Assets\\Scripts\\RegionSelector.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAqwGwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAqwFgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-25T18:05:17.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "TileSelector.cs",
               "DocumentMoniker": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\TileSelector.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TileSelector.cs",
               "ToolTip": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\TileSelector.cs",
               "RelativeToolTip": "Assets\\Scripts\\TileSelector.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAuwDYAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAqwHsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-24T17:36:17.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
               "ToolTip": "C:\\Users\\Max\\Documents\\GitHub\\DARK_LIGHT_OF_EUROPE\\Assets\\Scripts\\CameraController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAqwEIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwEIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-24T17:35:22.083Z",
               "EditorCaption": ""
